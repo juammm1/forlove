@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Forlove: Contactanos</title>
+  <title>Forlove: Contactanos</title>
   <link rel="stylesheet" type="text/css" href="estilo.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
   <header>
-      <h1 class="Logo"> <a href="index.html">FORLOVE</a> </h1>
-      <nav class="topnav">
-        <ul>
+    <h1 class="Logo"> <a href="index.html">FORLOVE</a> </h1>
+    <nav class="topnav">
+      <ul>
         <li> <a href="index.html">Inicio</a> </li>
         <li> <a href="Catalogo.html">Catalogo</a> </li>
         <li> <a href="Contactanos.html">Contactanos</a> </li>
         <li> <a href="preguntasfrecuentes.html">Preguntas frecuentes</a> </li>
         <li> <a href="aboutus.html">About Us</a> </li>
       </ul>
-      </nav>
-      </header>
+    </nav>
+  </header>
 
-      <h2>Contactanos</h2>
+  <main>
+    <h2>Contactanos</h2>
 
-     <form>   
-     	<input type="text" name="Nombre" placeholder="Nombre completo"> <br> 
-     	<input type="email" name="Mail" placeholder="Mail"> <br> 
-     	<input type="number" name="Numero de telefono" placeholder="Tu numero"> <br> 
-     	<input type="text" name="Mensaje" placeholder="Tu mensaje"> <br> 
-      <input type="submit" name="Enviar"> <br> 
-      <input type="reset" name="">
-     </form>
+    <form>
+      <fieldset>
+        <div>
+          <label for="nombre">Ingresa tu nombre</label>
+          <input id="nombre" type="text" name="Nombre" placeholder="Nombre completo">
+        </div>
 
-     <footer>
-      	<h3>Copyright - Todos los derechos reservados a FORLOVE</h3>
-      	<p>Seguinos en <b>Instagram</b> </p>
-      	<a href="https://instagram.com/juam.flp">Instagram</a>
-      </footer>
+        <div>
+          <label for="nombre">Ingresa tu Email</label>
+          <input type="email" name="Mail" placeholder="Mail">
+        </div>
+
+        <div>
+          <label for="nombre">Ingresa tu Numero</label>
+          <input type="number" name="Numero de telefono" placeholder="Tu numero">
+        </div>
+
+        <div>
+          <label for="nombre">Ingresa tu mensaje</label>
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" name="Enviar" class="boton">
+        <input type="reset" name=""  class="boton">
+
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <h3>Copyright - Todos los derechos reservados a FORLOVE</h3>
+    <p>Seguinos en <b>Instagram</b> </p>
+    <a href="https://instagram.com/juam.flp">Instagram</a>
+  </footer>
 
 </body>
+
 </html>
