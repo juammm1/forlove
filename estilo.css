@@ -1,0 +1,115 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+body{
+	background-color: #efe9d8;
+	border: 10px;
+	font-family: monospace;
+	background-image: none;
+}
+
+h1 {
+font-size: 7em;
+line-height: 0.3;
+text-align: center;
+padding-bottom: 30PX;
+padding-top: 30px;
+background-color: #ADA99C;
+margin-bottom: 0px;
+color: black;
+}
+
+h2 {
+	font-family: monospace;
+	font-size: 3.5em;
+	text-align: center;
+	margin: 3rem 0;
+
+}
+
+h3{
+	font-size: 2em;
+}
+
+ul {
+	font-family: monospace;
+	font-size: 2em;
+	padding: 0px;
+	margin: 0px; 
+	list-style: none;
+}
+
+footer {
+	font-size: 16px;
+	background-color: #ADA99C;
+	padding: 1rem;
+}
+
+form {
+padding-left: 0px;
+padding-top: 40px;
+padding-bottom: 30px;
+margin: 10px
+}
+
+p {
+	font-size: 20px
+}
+
+.topnav {
+	text-align: center;
+	background-color: #ADA99C;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.catalogo {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   gap: 2rem;
+
+}
+
+img{
+ height: 15rem;
+ width: 15rem;
+}
+
+.catalogo div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} 
+
+main{
+	margin-bottom: 3rem;
+}
+
+
+@media all and (max-width: 425px){
+	h1{
+		font-size: 5em;
+	}
+
+	img{
+		width: 100%;
+	}
+
+	form{
+		padding: 0px;
+	}
+
+	
+}
