@@ -4,9 +4,8 @@
 	font-family: monospace;
 }
 
-
 body{
-	background-color: #efe9d8;
+	background-color: $color-principal;
 	border: 10px;
 	font-family: monospace;
 	background-image: none;
@@ -172,3 +171,5 @@ li:hover {
 
 
 }
+
+

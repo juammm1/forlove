@@ -1,0 +1,239 @@
+// VARIABLES
+$color-principal: #efe9d8;
+$color-secundario:#ADA99C;
+$fuente-principal:monospace;
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: $fuente-principal;
+}
+
+//TODO CSS BODY
+body {
+    background-color: $color-principal;
+    border: 10px;
+    background-image: none;
+
+    h1 {
+        font-size: 7em;
+        line-height: 0.3;
+        text-align: center;
+        padding-bottom: 30PX;
+        padding-top: 30px;
+        background-color: $color-secundario;
+        margin-bottom: 0px;
+        color: black;
+        transition: all .2s;
+
+        h1:hover {
+            transform: scale(1.15);
+        }
+
+    }
+}
+
+//FIN CSS BODY
+
+
+//INICIO CSS MAIN
+main {
+    margin-bottom: 3rem;
+    width: 90%;
+    margin: auto;
+
+    h2 {
+        font-size: 3.5em;
+        text-align: center;
+        margin: 3rem 0;
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 2rem;
+        padding: 1,5;
+    }
+
+    .essentialslink{
+        background-color: $color-secundario
+    }
+}
+
+//FIN CSS MAIN
+
+
+//INICIO FORMULARIO CONTACTANOS.HTML
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    div {
+        display: flex;
+        align-items: flex-start;
+        padding: .5rem;
+        gap: .3rem;
+        flex-direction: column;
+    }
+
+    fieldset {
+        padding: 2rem;
+    }
+
+    .boton {
+        padding: .3rem;
+        width: 100%;
+        margin: .2rem;
+        background-color: $color-secundario;
+    }
+
+    input {
+        padding: .2rem;
+    }
+
+    input,textarea {
+        border: none;
+        border-radius: .2rem;
+        width: 100%;
+    }
+}
+
+//FIN FORMULARIO CONTACTANOS.HTML
+
+
+//TOPNAV
+.topnav {
+    text-align: center;
+    background-color: $color-secundario;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+    ul {
+        font-size: 2em;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+
+    li {
+        padding: .4rem;
+        transition: all .3s;
+    }
+
+    li:hover {
+        background-color: $color-principal;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+//FIN TOPNAV
+
+
+//INICIO CATALOGO INDEX
+.catalogoindex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 2rem;
+        height: 50rem;
+        width: 40rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    img {
+        height: 20rem;
+        width: 20rem;
+    }
+}
+
+//FIN CATALOGO INDEX
+
+// INICIO CATALOGO CATALOGO.HTML
+.catalogocatalogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenescatalogo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        height: 30rem;
+        width: 25rem;
+        text-align: center;
+        padding: 1rem;
+    }
+}
+
+
+//INICIO ABOUT US
+
+.textospadding{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.textospaddingrelleno{
+    padding-bottom: 10rem;
+}
+
+
+
+//INICIO FOOTER
+footer {
+    font-size: 16px;
+    background-color: $color-secundario;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+
+//FIN FOOTER
+
+
+//INICIO MEDIA QUERIES
+@media all and (max-width: 425px) {
+    h1 {
+        font-size: 5em;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    form {
+        padding: 0px;
+    }
+}
+
+//FIN MEDIA QUERIES
